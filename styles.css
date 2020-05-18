@@ -1,0 +1,35 @@
+/* the page having corona wordgets this color  */
+/* body{
+    background-color: #e74c3c !important;
+} */
+
+ /* to make coronavirus blink with rainbow colors */
+
+.rainbow{
+    animation:  rainbow 600ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+    0%{
+        color: red;
+    }
+    15%{
+        color: orange;
+    }
+    30%{
+        color: yellow;
+    }
+    45%{
+        color: green;
+    }
+    60%{
+        color: blue;
+    }
+    75%{
+        color: indigo;
+    }
+    90%{
+        color: violet;
+    }
+}
